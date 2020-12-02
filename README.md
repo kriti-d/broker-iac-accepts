@@ -3,7 +3,7 @@
 This contains the accepts.json for each SCM for Snyk's broker.
 Taking the original `accepts.json` file, we are adding rules to incorporate the rules for both Terraform and Kubernetes Config mentioned below
 
-[Terraform](https://support.snyk.io/hc/en-us/articles/360011018778-Detecting-Terraform-configuration-files-using-a-broker)
+[Terraform](https://support.snyk.io/hc/en-us/articles/360011018778-Detecting-Terraform-configuration-files-using-a-broker) \
 [Kubernetes Config](https://support.snyk.io/hc/en-us/articles/360010797537-Detecting-Kubernetes-configuration-files-using-a-broker)
 
 ## Usage
