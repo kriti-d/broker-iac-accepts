@@ -6,6 +6,9 @@ Taking the original `accepts.json` file, we are adding rules to incorporate the 
 [Terraform](https://support.snyk.io/hc/en-us/articles/360011018778-Detecting-Terraform-configuration-files-using-a-broker) \
 [Kubernetes Config](https://support.snyk.io/hc/en-us/articles/360010797537-Detecting-Kubernetes-configuration-files-using-a-broker)
 
+## Related 
+[Snyk Broker](https://github.com/snyk/broker)
+
 ## Usage
 The broker takes the path to the accept.json file (with the rules above added) in the ACCEPT environment variable. You can see an example of passing that to the GitHub broker below.
 ```docker run --restart=always \
