@@ -11,7 +11,8 @@ Taking the original `accepts.json` file, we are adding rules to incorporate the 
 
 ## Usage
 The broker takes the path to the accept.json file (with the rules above added) in the ACCEPT environment variable. You can see an example of passing that to the GitHub broker below.
-```docker run --restart=always \
+```
+  docker run --restart=always \
   -p 8000:8000 \
   -e BROKER_TOKEN=secret-broker-token \
   -e GITHUB_TOKEN=secret-github-token \
